@@ -1,0 +1,53 @@
+name: Task
+description: A sharply scoped, bounded work item
+title: "[Task] "
+labels: ["task"]
+assignees: ""
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Task Summary
+        What needs to be done?
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      placeholder: |
+        What is in scope?
+        What is explicitly out of scope?
+    validations:
+      required: true
+
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        How do we know when this is done?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - TypeScript
+        - Python
+        - Either
+        - Documentation only
+        - Unspecified
+    validations:
+      required: false
+
+  - type: textarea
+    id: blockers
+    attributes:
+      label: Blockers or Dependencies
+      placeholder: |
+        Any blockers, open questions, or dependencies?
+    validations:
+      required: false

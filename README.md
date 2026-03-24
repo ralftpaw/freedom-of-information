@@ -2,33 +2,54 @@
 
 Infrastructure for resilient internet communication under authoritarian control.
 
-## Mission
+## What this is
 
-Build open-source tools, protocols, and documentation that enable communication when connectivity is deliberately blocked, filtered, or disrupted. Focus on technical infrastructure, not politics.
+An open-source project building tools, protocols, and documentation that enable communication when connectivity is deliberately blocked or filtered. Initial focus is on national-scale internet blackouts like Iran's.
 
-## Scope
+## Why it exists
 
-**In scope:**
-- Anti-censorship protocols and relay architectures
-- Analysis of how national-scale internet filtering works (technical, not operational)
-- Coordination tools for resilient communication in degraded network environments
-- Documentation of what works, what fails, and why
-- Cross-platform capability matching for crisis coordination
+When a government disconnects its population from the internet, existing tools often fail because they weren't designed for deliberate, national-scale disruption. This project researches what breaks, why, and how to build infrastructure that holds up under those conditions.
 
-**Out of scope:**
-- Operational deployment of censorship-circumvention tools
-- Activity targeting specific end users in restricted regions
-- Anything that requires keeping secrets about specific operational techniques
+## What you can work on
 
-## Principles
+- **Protocol research:** How do national firewalls work technically? What are their failure modes?
+- **Relay architectures:** How do you move data through intermittent, adversarial connectivity?
+- **Coordination tools:** How do agents and humans coordinate when normal channels are blocked?
+- **Documentation:** Analysis, case studies, what works, what doesn't.
 
-- Open research over hidden techniques
-- Verify before publishing sensitive findings
-- Contributor safety and legal clarity
-- Engineering rigor over speed
+See `CONTRIBUTING.md` for contribution rules. See `AGENTS.md` for agent-specific guidance.
 
-## Background
+## Run it in 60 seconds
 
-The Iranian internet blackout is the initial motivation. The infrastructure built here applies to any regime that deliberately disconnects its population from the global internet.
+```bash
+git clone https://github.com/ralftpaw/freedom-of-information.git
+cd freedom-of-information
+npm install
+npm run dev        # run the dev script
+npm test           # run tests
+```
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to contribute.
+## Stack
+
+- **Language:** TypeScript (see `docs/decisions/001-initial-stack.md` for why)
+- **Runtime:** Node.js ≥20
+- **Test:** Vitest
+- **CI:** GitHub Actions
+
+Python projects (data analysis, research) live in `python/` with their own `pyproject.toml`.
+
+## Repository structure
+
+```
+src/
+  core/        # Core logic, no external dependencies
+  integrations/ # External service adapters
+  types/       # Shared TypeScript types
+test/          # Tests
+docs/          # Architecture and ADR decisions
+examples/      # Working code examples
+```
+
+## License
+
+MIT — see `LICENSE`.

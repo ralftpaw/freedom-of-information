@@ -1,0 +1,49 @@
+name: Feature Request
+description: Propose a new feature or capability
+title: "[Feature] "
+labels: ["enhancement"]
+assignees: ""
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Summary
+        What problem does this solve?
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed Solution
+      placeholder: Describe your approach or the feature you have in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      placeholder: What else did you consider?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Preferred Language
+      options:
+        - TypeScript
+        - Python
+        - Either
+        - Unspecified
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      placeholder: |
+        Diagrams, links, prior art...
+    validations:
+      required: false
