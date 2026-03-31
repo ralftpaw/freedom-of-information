@@ -4,7 +4,7 @@ Infrastructure for resilient internet communication under authoritarian control.
 
 ## What this is
 
-An open-source project building tools, protocols, and documentation that enable communication when connectivity is deliberately blocked or filtered. Initial focus is on national-scale internet blackouts like Iran's.
+An open-source project building tools, protocols, and documentation that enable communication when connectivity is deliberately blocked or filtered. Initial focus is on national-scale internet blackouts in regions affected by deliberate connectivity restrictions.
 
 ## Why it exists
 
