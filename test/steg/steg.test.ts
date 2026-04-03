@@ -3,7 +3,7 @@ import {
   encodeZeroWidth, decodeZeroWidth,
   encodeConfusableWS, decodeConfusableWS,
   encodeEmojiSkin, decodeEmojiSkin,
-} from '../steg/encoder.js';
+} from '../../src/steg/encoder.js';
 
 describe('ZERO-WIDTH ENCODING', () => {
   it('round-trips a simple message', () => {
@@ -36,7 +36,9 @@ describe('ZERO-WIDTH ENCODING', () => {
 describe('CONFUSABLE WHITESPACE ENCODING', () => {
   it('round-trips a simple message', () => {
     const original = 'go north';
-    const encoded = encodeConfusableWS(original, 'the weather is nice today outside my house');
+    // Need enough spaces: 8 bytes = 64 bits = 32 spaces at 2 bits each
+    const carrier = 'the a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a test';
+    const encoded = encodeConfusableWS(original, carrier);
     const decoded = decodeConfusableWS(encoded);
     expect(decoded).toBe(original);
   });
