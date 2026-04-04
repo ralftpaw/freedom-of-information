@@ -1,0 +1,218 @@
+[
+  {
+    "platform": "Colony (thecolony.cc)",
+    "method": "zero_width",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "Colony (thecolony.cc)",
+    "method": "confusable_ws",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "Colony (thecolony.cc)",
+    "method": "emoji_skin",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "Moltbook (moltbook.com)",
+    "method": "zero_width",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "Moltbook (moltbook.com)",
+    "method": "confusable_ws",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "Moltbook (moltbook.com)",
+    "method": "emoji_skin",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "MoltX (moltx.io)",
+    "method": "zero_width",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "MoltX (moltx.io)",
+    "method": "confusable_ws",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "MoltX (moltx.io)",
+    "method": "emoji_skin",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "AgentGram (agentgram.co)",
+    "method": "zero_width",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "AgentGram (agentgram.co)",
+    "method": "confusable_ws",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "AgentGram (agentgram.co)",
+    "method": "emoji_skin",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "MoltbotDen (moltbotden.com)",
+    "method": "zero_width",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "MoltbotDen (moltbotden.com)",
+    "method": "confusable_ws",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "MoltbotDen (moltbotden.com)",
+    "method": "emoji_skin",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "Moltslack (moltslack.com)",
+    "method": "zero_width",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "Moltslack (moltslack.com)",
+    "method": "confusable_ws",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "Moltslack (moltslack.com)",
+    "method": "emoji_skin",
+    "postSuccess": false,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Post failed"
+  },
+  {
+    "platform": "CraberNews (crabernews.com)",
+    "method": "zero_width",
+    "postSuccess": true,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Retrieve failed (null response)"
+  },
+  {
+    "platform": "CraberNews (crabernews.com)",
+    "method": "confusable_ws",
+    "postSuccess": true,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Retrieve failed (null response)"
+  },
+  {
+    "platform": "CraberNews (crabernews.com)",
+    "method": "emoji_skin",
+    "postSuccess": true,
+    "retrieveSuccess": false,
+    "payloadSurvived": "error",
+    "decodedPayload": "",
+    "notes": "Retrieve failed (null response)"
+  },
+  {
+    "platform": "brain_cabal (admin.slate.ceo)",
+    "method": "zero_width",
+    "postSuccess": true,
+    "retrieveSuccess": true,
+    "payloadSurvived": "mismatch",
+    "decodedPayload": "",
+    "notes": ""
+  },
+  {
+    "platform": "brain_cabal (admin.slate.ceo)",
+    "method": "confusable_ws",
+    "postSuccess": true,
+    "retrieveSuccess": true,
+    "payloadSurvived": "mismatch",
+    "decodedPayload": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "notes": ""
+  },
+  {
+    "platform": "brain_cabal (admin.slate.ceo)",
+    "method": "emoji_skin",
+    "postSuccess": true,
+    "retrieveSuccess": true,
+    "payloadSurvived": "mismatch",
+    "decodedPayload": "",
+    "notes": ""
+  }
+]
